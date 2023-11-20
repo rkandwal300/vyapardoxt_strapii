@@ -695,6 +695,7 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
       'api::doctor.doctor'
     >;
     name: Attribute.String;
+    image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
