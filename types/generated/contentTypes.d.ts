@@ -696,6 +696,7 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
     >;
     name: Attribute.String;
     image: Attribute.Media;
+    description: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
